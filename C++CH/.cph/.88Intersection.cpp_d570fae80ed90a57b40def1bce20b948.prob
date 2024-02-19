@@ -1,0 +1,1 @@
+{"name":"Local: 88Intersection","url":"f:\\Vscode\\C++CH\\88Intersection.cpp","tests":[{"id":1707889258394,"input":"2\n6 4\n1 2 2 2 3 4\n2 2 3 3\n3 2 \n1 2 3\n3 4\n","output":""},{"id":1707889322324,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Vscode\\C++CH\\88Intersection.cpp","group":"local","local":true}
