@@ -1,0 +1,8 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "EX44.C": "cpp",
+        "ex.C": "cpp",
+        "EX59.C": "cpp"
+    }
+}

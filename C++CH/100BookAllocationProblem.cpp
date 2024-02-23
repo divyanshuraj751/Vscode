@@ -15,8 +15,7 @@ bool isPossible(int arr[],int size, int m, int mid){
                 return false;
             }
             pageSum = 0;
-            pageSum += arr[i];
-
+            pageSum += arr[i]; 
         }
     }
     return true;
