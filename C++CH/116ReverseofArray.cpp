@@ -6,11 +6,8 @@
 using namespace std;
 
 void Rev(vector<int> &arr,int n) {
-    for(int i=0;i<n;i++) {
-        swap(arr[0],arr[n-i-1]);
-        if(arr[i]>n/2){
-            break;
-        }
+    for(int i=0;i<n/2;i++) {
+        swap(arr[i],arr[n-i-1]);
     }
 
     for(int i=0;i<n;i++) {
