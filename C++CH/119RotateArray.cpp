@@ -10,8 +10,9 @@ void Rotate(int arr[],int size,int k) {
     for(int i=size-k,j=0;i<size,j<k;i++,j++) {
         arr1[j]=arr[i];
     }
+    arr= arr1;
     for(int i=0;i<size;i++) {
-        cout<<arr1[i]<<" ";
+        cout<<arr[i]<<" ";
     }
 }
 
