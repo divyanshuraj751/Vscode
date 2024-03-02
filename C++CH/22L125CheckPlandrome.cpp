@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+
+
+bool Palindrome(char str[]) {
+    int count=0;
+    int i=0;
+    while(str[i]!='\0') {
+        count++;
+        i++;
+    }
+    for(int i=0;i<count/2;i++) {
+        if(str[i]==str[count-1-i]) {
+            continue;
+        }
+        else{
+            return false;
+        }
+    }
+    return true;
+}
+
+int main() {
+    char str[50];
+    cin>>str;
+    
+    bool check = Palindrome(str);
+    if(check==false){
+        cout<<"No";
+    }
+    else {
+        cout<<"Yes";
+    }
+}
