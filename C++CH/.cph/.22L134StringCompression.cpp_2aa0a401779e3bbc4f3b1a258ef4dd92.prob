@@ -1,0 +1,1 @@
+{"name":"Local: 22L134StringCompression","url":"f:\\Vscode\\C++CH\\22L134StringCompression.cpp","tests":[{"id":1709447668184,"input":"8\naabbbccc","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Vscode\\C++CH\\22L134StringCompression.cpp","group":"local","local":true}

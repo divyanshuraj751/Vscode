@@ -1,0 +1,1 @@
+{"name":"Local: 22L131RemoveOccSubString","url":"f:\\Vscode\\C++CH\\22L131RemoveOccSubString.cpp","tests":[{"id":1709441396663,"input":"daabcbaabcbc  abc","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Vscode\\C++CH\\22L131RemoveOccSubString.cpp","group":"local","local":true}

@@ -1,0 +1,11 @@
+#string
+print("Hello"[0])
+#integer
+123
+#largeinteger
+123_456_789
+#float
+3.14259
+#boolean
+True
+False
