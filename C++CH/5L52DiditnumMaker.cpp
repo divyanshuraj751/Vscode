@@ -20,7 +20,7 @@ int main()
         {
             ans = 10 * ans + arr[j];
         }
-        //break;`   
+        //break;
     //}
     cout << ans << endl;
 }
