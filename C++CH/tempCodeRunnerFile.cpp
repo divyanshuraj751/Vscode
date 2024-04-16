@@ -1,36 +1,34 @@
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
-string addStrings(string num1, string num2)
+
+int main()
 {
-    int ans = 0, ans1 = 0;
-    for (int i = 0; i < num1.size(); i++)
+    int t;
+    cin >> t;
+    int n;
+    cin >> n;
+    vector<int> A(n);
+    for (int i = 0; i < n; i++)
     {
-        ans = ans * 10 + num1[i];
+        cin >> A[i];
     }
-    for (int i = 0; i < num2.size(); i++)
+    int k;
+    cin >> k;
+
+    sort(A.begin(), A.end());
+    /*for (int i = 0; i < n; i++)
     {
-        ans1 = ans1 * 10 + num2[i];
-    }
-    int answer = ans + ans1;
-    string ans4;
-    for (int i = 0; i < ans4.size(); i++)
+        cout << A[i] << " ";
+    }*/
+    cout << endl;
+    int ans=0;
+    for (int i = 0; i < n; i++)
     {
-        ans4[i] = answer % 10;
-        answer / 10;
-        cout<<answer;
+        if (A[i] == k)
+        {
+           ans = i;
+        }
+        break;
     }
-    
-    return ans4;
-}
-
-int main() {
-    string num1;
-    cin>>num1;
-
-    string num2;
-    cin>>num2;
-
-    cout<<addStrings(num1,num2);
-    return 0;
+    cout<<ans+1<<endl;    
 }
