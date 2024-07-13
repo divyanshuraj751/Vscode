@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;    
+    font-weight: normal;   /*400 can be a value other than normal or bold or other*/
+    text-decoration: #f78120 underline wavy;
+    letter-spacing: 15px;
+    font-size: 70px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p{
+    line-height: 2;
+}
